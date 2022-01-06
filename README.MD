@@ -1,20 +1,20 @@
-# MT翻译插件
+# MT translation plugin
 
-MT管理器官方翻译插件源码
+ MT Manager official translation plug-in source code
 
-## 项目说明
+ ## project instruction
 
-项目使用 Android Studio 进行开发，在默认文件结构的基础上，删除多余的文件和配置，仅保留插件开发所需要的相关内容，并集成了一键打包功能。
+ The project is developed using Android Studio. On the basis of the default file structure, redundant files and configurations are deleted, only the relevant content required for plug-in development is retained, and the one-click packaging function is integrated.
 
-插件源码文件在下面四个路径：
+ The plug-in source code files are in the following four paths:
 
-- plugin/src/main/resources/manifest.json
-- plugin/src/main/java
-- plugin/src/main/assets
-- plugin/libs
+ -plugin/src/main/resources/manifest.json
+ -plugin/src/main/java
+ -plugin/src/main/assets
+ -plugin/libs
 
-如果需要重新开发自己的模块，清空上面 4 个路径下的文件内容即可。
+ If you need to re-develop your own module, you can clear the contents of the files in the above 4 paths.
 
-## 一键打包
+ ## One-click packaging
 
-在 Android Studio 上方选择 BuildPlugin 并点击运行，或者在项目根目录下执行 ./gradlew plugin:buildPlugin，即可自动打包文件并保存到 plugin/build/outputs/mtp/plugin.mtp
+ Select BuildPlugin at the top of Android Studio and click Run, or execute ./gradlew plugin:buildPlugin in the root directory of the project to automatically package the file and save it to plugin/build/outputs/mtp/plugin.mtp
